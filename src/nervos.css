@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 50px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/23/19/40/student-3176407_960_720.png");
+  background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #c3c4c5;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-size: 30px;
