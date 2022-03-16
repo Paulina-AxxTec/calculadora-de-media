@@ -1,30 +1,69 @@
 # calculadora-de-media
 Calcula a média anual conforme as notas bimestrais
 
+<!DOCTYPE html>
 <html>
-<head>
-<title> Treinando</title>
-<link rel="stylesheet" type="text/css" href="calculadora-de-media/src/nervos.css" media="screen" />
 
-<body>
-  <div class="container">
-    <h1 class="page-title">
-      Calculadora de média</h1>
-    <p class="page-subtitle">
-      Calcule sua sua média final de todas as provas!
-    </p>
-   <h2 id="valorConvertido"></h2>
-  </div>
- 
-  <a href="https://github.com/Paulina-AxxTec" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/69440895?s=400&u=f55990b981f9a90bbc8f496618e673ffb22cdbe0&v=4" alt="" class="alextec-logo">
-    <a href="https://www.linkedin.com/in/paulina-moreno-5692627a/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="" class="linkedin-logo"> 
- 
-  <script type="text/javascript">
-    console.log("Bem-vindo, " + nome + "!");
-    console.log("Sua nota final é " + notaFinal);
-  </script>
-</body>
-  </head>
+    <head>
+        <title> Treinando</title>
+        <link rel="stylesheet" href="src/musculos.css">
+        
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+                Calculadora de média</h1>
+            <p class="page-subtitle">
+                Calcule sua sua média final de todas as provas!
+            </p>
+            <h2 id="valorConvertido"></h2>
+        </div>
+
+        <a href="https://github.com/Paulina-AxxTec" target="_blank">
+            <img src="https://avatars.githubusercontent.com/u/69440895?s=400&u=f55990b981f9a90bbc8f496618e673ffb22cdbe0&v=4"
+                alt="" class="alextec-logo">
+            <a href="https://www.linkedin.com/in/paulina-moreno-5692627a/" target="_blank">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt=""
+                    class="linkedin-logo">
+
+                <script>
+                    var nome = "Alex";
+                    var notaDoPrimeiroBimestre = prompt("Digite a nota do 1º Bim: ");
+                    var notaDoSegundoBimestre = prompt("Digite a nota do 2º Bim: ");
+                    var notaDoTerceiroBimestre = prompt("Digite a nota do 3º Bim: ");
+                    var notaDoQuartoBimestre = prompt("Digite a nota do 4º Bim: ");
+
+                    var convertido1bim = parseInt(notaDoPrimeiroBimestre);
+                    console.log(convertido1bim); // 10
+                    console.log(typeof convertido1bim); // Number
+
+                    var convertido2bim = parseInt(notaDoSegundoBimestre);
+                    console.log(convertido2bim); // 10
+                    console.log(typeof convertido2bim); // Number
+
+                    var convertido3bim = parseInt(notaDoTerceiroBimestre);
+                    console.log(convertido3bim); // 10
+                    console.log(typeof convertido3bim); // Number
+
+                    var convertido4bim = parseInt(notaDoQuartoBimestre);
+                    console.log(convertido4bim); // 10
+                    console.log(typeof convertido4bim); // Number
+
+                    var notaFinal = ((convertido1bim + convertido2bim + convertido3bim + convertido4bim) / 4)
+
+                    var notaFinalTotal = document.getElementById("valorConvertido");
+
+                    console.log("Bem-vindo, " + nome + "!");
+                    console.log("Sua nota final é " + notaFinal);
+
+                    if (notaFinal >= 7) {
+                        notaFinalTotal.innerHTML = "O Aluno " + nome + " foi APROVADO!";
+                    }
+
+                    else {
+                        notaFinalTotal.innerHTML = nome + ", infelizmente não foi dessa vez... ";
+                    }  
+                </script>
+    </body>
+    </head>
+
 </html>
