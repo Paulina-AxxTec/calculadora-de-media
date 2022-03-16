@@ -1,13 +1,8 @@
-# calculadora-de-media
-Calcula a média anual conforme as notas bimestrais
-
 <!DOCTYPE html>
 <html>
-
     <head>
-        <title> Treinando</title>
+        <title>Calculadora</title>
         <link rel="stylesheet" href="src/musculos.css">
-        
     <body>
         <div class="container">
             <h1 class="page-title">
@@ -65,5 +60,4 @@ Calcula a média anual conforme as notas bimestrais
                 </script>
     </body>
     </head>
-
 </html>
