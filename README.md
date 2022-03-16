@@ -1,25 +1,28 @@
+Aqui segue o passo a passo para criar meu primeiro projeto estudando HTML, CSS e Javascript com ajuda de #Alura #DevEmDobro, incentivo da #Rocketseat:
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Calculadora</title>
+    <title>Calculadora</title>
         <link rel="stylesheet" href="src/musculos.css">
     <body>
         <div class="container">
-            <h1 class="page-title">
-                Calculadora de média</h1>
-            <p class="page-subtitle">
-                Calcule sua sua média final de todas as provas!
+            <h1 class="page-title">Calculadora de média</h1>
+            <p class="page-subtitle">Calcule sua sua média final de todas as provas!
             </p>
             <h2 id="valorConvertido"></h2>
         </div>
 
         <a href="https://github.com/Paulina-AxxTec" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/69440895?s=400&u=f55990b981f9a90bbc8f496618e673ffb22cdbe0&v=4"
-                alt="" class="alextec-logo">
+           
+            <img src="https://avatars.githubusercontent.com/u/69440895?s=400&u=f55990b981f9a90bbc8f496618e673ffb22cdbe0&v=4" alt="" class="alextec-logo">
+           
             <a href="https://www.linkedin.com/in/paulina-moreno-5692627a/" target="_blank">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt=""
                     class="linkedin-logo">
-
+<p class="page-subtitle">Calcule sua sua média final de todas as provas!</p>
                 <script>
                     var nome = "Alex";
                     var notaDoPrimeiroBimestre = prompt("Digite a nota do 1º Bim: ");
