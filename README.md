@@ -4,9 +4,10 @@ Aqui segue o passo a passo para criar meu primeiro projeto estudando HTML, CSS e
 
 <h1><!DOCTYPE html>
 <html>
-<head>
+  <head>
 Calculadora
-
+  </head>
+  <body>
 <link rel="stylesheet" href="./src/musculos.css"></h1>
 
 <h3>Aqui mostro como colocar o CSS dentro do HTML</h3>
@@ -139,7 +140,6 @@ Calculadora
     }
     </style></h5>
   
-<body>
 
 <h3>Chegamos no cabeçalho da página</h3>
         <div class="container">
@@ -195,7 +195,7 @@ Calculadora
                     }  
                 </script>
 </body>
-</head>
+
 </html>
   
 FIM!
